@@ -97,3 +97,10 @@ Get-AppxPackage "king.com.*" | Remove-AppxPackage
 Get-AppxPackage "king.com.BubbleWitch3Saga" | Remove-AppxPackage
 Get-AppxPackage "king.com.CandyCrushSaga" | Remove-AppxPackage
 Get-AppxPackage "king.com.CandyCrushSodaSaga" | Remove-AppxPackage
+
+# Show known file extensions
+Write-Host "Showing known file extensions..."
+Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" -Name "HideFileExt" -Type DWord -Value 0
+
+# Hide Taskbar Search Box
+Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Search" -Name "SearchboxTaskbarMode" -Type DWord -Value 0
