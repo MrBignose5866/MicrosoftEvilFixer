@@ -12,7 +12,7 @@ Write-Output "====== Main Menu ======"
 
 # Displays Main Menu Options
 Write-Output "[1] Debloat Menu"
-Write-Output "[2] Install Apps"
+Write-Output "[2] Install Programs"
 Write-Output "[3] Control Panel Menus"
 Write-Output "[4] Exit Script"
 
