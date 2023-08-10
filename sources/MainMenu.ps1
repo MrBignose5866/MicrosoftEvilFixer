@@ -26,26 +26,22 @@ $userinput = Read-Host -Prompt "Choice"
 
 # If User Enters '1' Then Launch Debloat Menu
 if ($userinput -eq '1'){
-    Clear-Host
-    Set-Location ".\sources\"
-    .\DebloatMenu.ps1
+   & ".\DebloatMenu.ps1"
 }
 
 # If User Enters '2' Then Launch Install Apps Menu
 if ($userinput -eq '2'){
-     Set-Location ".\sources\"
-     .\InstallPrograms.ps1
+     & ".\InstallPrograms.ps1"
 }
 
 # If User Enters '3' Then Launch Control Panel Menus
 if ($userinput -eq '3'){
-    Set-Location ".\sources\"
-    .\controlpanelmenus.ps1
+    & ".\controlpanelmenus.ps1"
 }
 
 # If User Enters '4' Then Launch Exit Script
 if ($userinput -eq '4'){
-    Write-Output "You Entered 4"
+    & ".\exit.ps1"
 }
 
 
