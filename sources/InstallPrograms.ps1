@@ -89,9 +89,15 @@ if ($InstallChoice -eq '10'){
 
 if ($InstallChoice -eq '11'){
     winget install "Windows Calculator" --source msstore
+    Clear-Host
+    & ".\InstallPrograms.ps1"
 }
 
 if ($InstallChoice -eq '12'){
     winget install "7-zip.7-zip"
+}
+
+if ($InstallChoice -eq 'B'){
+    & ".\MainMenu.ps1"
 }
 
