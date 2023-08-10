@@ -98,6 +98,7 @@ if ($InstallChoice -eq '12'){
 }
 
 if ($InstallChoice -eq 'B'){
+    Clear-Host
     & ".\MainMenu.ps1"
 }
 
