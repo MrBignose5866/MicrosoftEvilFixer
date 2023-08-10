@@ -39,7 +39,8 @@ if ($userinput -eq '2'){
 
 # If User Enters '3' Then Launch Control Panel Menus
 if ($userinput -eq '3'){
-    Write-Output "You Entered 3"
+    Set-Location ".\sources\"
+    .\controlpanelmenus.ps1
 }
 
 # If User Enters '4' Then Launch Exit Script
