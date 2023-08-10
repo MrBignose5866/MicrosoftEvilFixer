@@ -104,4 +104,5 @@ Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Search" 
 Clear-Host
 
 # Return To Main Menu
+Clear-Host
 & ".\MainMenu.ps1"
