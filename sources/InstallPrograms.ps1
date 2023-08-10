@@ -10,14 +10,14 @@ Write-Output ""
 Write-Output "Web Browsers:                                       Games:"
 Write-Output "[1] Google Chrome                                   [9] Steam"
 Write-Output "[2] Firefox                                         [10] Minecraft Launcher"
-Write-Output "[3] Brave"                            
-
-# Leave Space
-Write-Output ""
-
-Write-Output "Programming & Development:"
-Write-Output "[4] GitHub Desktop"
-Write-Output "[5] Visual Studio Code"
+Write-Output "[3] Brave"                                                                      
+                                                                  
+# Leave Space                                                     
+Write-Output ""                                                   
+                                                                  
+Write-Output "Programming & Development:                          Utilities:"
+Write-Output "[4] GitHub Desktop                                  [11] Windows Calculator"       
+Write-Output "[5] Visual Studio Code                              [12] 7-Zip"
 Write-Output "[6] Visual Studio 2022"
 Write-Output "[7] PowerShell 7"
 Write-Output "[8] Notepad++"
@@ -86,3 +86,12 @@ if ($InstallChoice -eq '10'){
     Clear-Host
     & ".\InstallPrograms.ps1"
 }
+
+if ($InstallChoice -eq '11'){
+    winget install "Windows Calculator" --source msstore
+}
+
+if ($InstallChoice -eq '12'){
+    winget install "7-zip.7-zip"
+}
+
