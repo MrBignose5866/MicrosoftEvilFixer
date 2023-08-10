@@ -51,6 +51,7 @@ if ($controlpanelmenus -eq '6'){
 }
 
 if ($controlpanelmenus -eq 'B'){
+    Clear-Host
     & ".\MainMenu.ps1"
 }
 
