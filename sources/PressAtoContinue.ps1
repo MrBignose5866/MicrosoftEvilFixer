@@ -1,12 +1,15 @@
 # PowerShell Script Credits To ThatPowerShellGuy
 # Script Created: 8/6/2023
-# Last Edit: 8/7/2023 10:12 AM
+# Last Edit: 8/9/2023 8:58 PM
+# Version: Beta 1.9
 
 # Clears PowerShell Before Script Launches To Keep The Terminal Clean
 Clear-Host
 
-# Displays "====== Uninstall Windows 11 Junk ======" aka Program Title
-Write-Output "====== Uninstall Windows 11 Junk ======"
+# Displays "====== MicrosoftEvilFixer ======" aka Program Title
+Write-Output "====== MicrosoftEvilFixer ======"
+Write-Output "Version: Beta 1.9"
+Write-Output "================================"
 
 # Leaves Space Between Program Title and User Prompt
 Write-Output ""
