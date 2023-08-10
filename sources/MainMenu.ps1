@@ -33,7 +33,8 @@ if ($userinput -eq '1'){
 
 # If User Enters '2' Then Launch Install Apps Menu
 if ($userinput -eq '2'){
-    Write-Output "You Entered 2"
+     Set-Location ".\sources\"
+     .\InstallPrograms.ps1
 }
 
 # If User Enters '3' Then Launch Control Panel Menus
