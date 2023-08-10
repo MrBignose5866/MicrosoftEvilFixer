@@ -7,7 +7,7 @@ Once Your Have The Program On Your Computer Open The **MicrosoftEvilFixer** Fold
 
 # Using The Program
 
-Once In The Program Press A To Continue, once in the Main Menu you have 4 options **Debloat**, **Install Apps**, **Control Panel Menus**, and **Exit**. Note: You Can Always Press **B** To Go Back A Page.
+Once In The Program Press A To Continue, once in the Main Menu you have 4 options **Debloat**, **Install Programs**, **Control Panel Menus**, and **Exit**. Note: You Can Always Press **B** To Go Back A Page.
 
 ![](https://github.com/ThatPowerShellGuy1/Uninstall-Windows-11-Junk/blob/main/sources/mainmenu-image.png)
 
