@@ -16,14 +16,17 @@ Write-Output "[3] Almost Stock (Consumer Tier)"
 $choice = Read-Host -Prompt "Tier Choice"
 
 if ($choice -eq '1'){
+    Clear-Host
     & ".\DebloatTier1Menu.ps1"
 }
 
 if ($choice -eq '2'){
+    Clear-Host
     & ".\DebloatTier2Menu.ps1"
 }
 
 if ($choice -eq '3'){
+    Clear-Host
     & ".\DebloatTier3Menu.ps1"
 }
 
