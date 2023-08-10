@@ -24,6 +24,7 @@ $userinput = Read-Host -Prompt "Choice"
 
 # If User Enters '1' Then Launch Debloat Menu
 if ($userinput -eq '1'){
+    Clear-Host
     Set-Location ".\sources\"
     .\DebloatMenu.ps1
 }
