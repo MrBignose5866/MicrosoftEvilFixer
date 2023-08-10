@@ -1,9 +1,9 @@
-# Uninstall Windows 11 Junk
+# MicrosoftEvilFixer
 A PowerShell Script to Remove Windows 11 Bloat
 
 # Running The Application
 
-Once Your Have The Program On Your Computer Open The **Uninstall Windows 11 Junk** Folder and Right Click **start.ps1** and Click **Run with PowerShell**.
+Once Your Have The Program On Your Computer Open The **MicrosoftEvilFixer** Folder and Right Click **start.ps1** and Click **Run with PowerShell**.
 
 # Using The Program
 
