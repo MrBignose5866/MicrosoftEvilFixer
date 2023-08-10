@@ -32,5 +32,6 @@ if ($userinput -eq 'A'){
 }
 
 if ($userinput -eq 'B'){
+    Clear-Host
     & ".\DebloatMenu.ps1"
 }
