@@ -30,3 +30,7 @@ if ($userinput -eq 'A'){
     Clear-Host
     & ".\DebloatTier2.ps1"
 }
+
+if ($userinput -eq 'B'){
+    & ".\DebloatMenu.ps1"
+}
