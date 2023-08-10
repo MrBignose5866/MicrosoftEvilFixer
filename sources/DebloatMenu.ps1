@@ -34,6 +34,7 @@ if ($choice -eq '3'){
 }
 
 if ($choice -eq 'B'){
+    Clear-Host
     & ".\MainMenu.ps1"
 }
 
