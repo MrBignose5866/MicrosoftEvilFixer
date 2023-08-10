@@ -27,3 +27,7 @@ if ($userinput -eq 'A'){
     Clear-Host
     & ".\DebloatTier1.ps1"
 }
+
+if ($userinput -eq 'B'){
+    & ".\DebloatMenu.ps1"
+}
