@@ -8,13 +8,11 @@ Get-AppxPackage *BingWeather* | Remove-AppxPackage # Weather App
 Get-AppxPackage *ZuneMusic* | Remove-AppxPackage # Music App
 Get-AppxPackage *ZuneVideo* | Remove-AppxPackage # Movies & TV
 Get-AppxPackage *MicrosoftOfficeHub* | Remove-AppxPackage # Microsoft Office
-Get-AppxPackage *People* | Remove-AppxPackage # People
 Get-AppxPackage *WindowsMaps* | Remove-AppxPackage # Windows Maps
 Get-AppxPackage *GetHelp* | Remove-AppxPackage # Help and Tips
 Get-AppxPackage *WindowsSoundRecorder* | Remove-AppxPackage # Windows Sound Recorder
 Get-AppxPackage *MicrosoftStickyNotes* | Remove-AppxPackage # Sticky Notes
 Get-AppxPackage *PowerAutomateDesktop* | Remove-AppxPackage # Power Automate
-Get-AppxPackage *Xbox* | Remove-AppxPackage # Xbox App
 Get-AppxPackage *WindowsFeedbackHub* | Remove-AppxPackage # Feedback Hub
 Get-AppxPackage *Todos* | Remove-AppxPackage # Microsoft To-Do
 Get-AppxPackage *WindowsAlarms* | Remove-AppxPackage # Alarms and Clock
@@ -101,3 +99,9 @@ Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer
 
 # Hide Taskbar Search Box
 Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Search" -Name "SearchboxTaskbarMode" -Type DWord -Value 0
+
+# Clear Host
+Clear-Host
+
+# Return To Main Menu
+& ".\MainMenu.ps1"
