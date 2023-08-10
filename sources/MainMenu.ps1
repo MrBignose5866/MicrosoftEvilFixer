@@ -1,8 +1,10 @@
 # Clears Terminal Before Main Menu Launches to Keep The Terminal Clean
 Clear-Host
 
-# Displays "====== Uninstall Windows 11 Junk ======" aka Program Title
-Write-Output "====== Uninstall Windows 11 Junk ======"
+# Displays "====== MicrosoftEvilFixer ======" aka Program Title
+Write-Output "====== MicrosoftEvilFixer ======"
+Write-Output "Version: Beta 1.9"
+Write-Output "================================"
 
 # Leaves Space Between Program Title and Main Menu
 Write-Output ""
