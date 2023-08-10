@@ -7,10 +7,10 @@ Write-Output "====== Install Programs ======"
 # Leave Space
 Write-Output ""
 
-Write-Output "Web Browsers:"
-Write-Output "[1] Google Chrome"
-Write-Output "[2] Firefox"
-Write-Output "[3] Brave"
+Write-Output "Web Browsers:                                       Games:"
+Write-Output "[1] Google Chrome                                   [9] Steam"
+Write-Output "[2] Firefox                                         [10] Minecraft Launcher"
+Write-Output "[3] Brave"                            
 
 # Leave Space
 Write-Output ""
@@ -71,6 +71,18 @@ if ($InstallChoice -eq '7'){
 
 if ($InstallChoice -eq '8'){
     winget install "Notepad++.Notepad++"
+    Clear-Host
+    & ".\InstallPrograms.ps1"
+}
+
+if ($InstallChoice -eq '9'){
+    winget install "Valve.Steam"
+    Clear-Host
+    & ".\InstallPrograms.ps1"
+}
+
+if ($InstallChoice -eq '10'){
+    winget install "Mojang.MinecraftLauncher"
     Clear-Host
     & ".\InstallPrograms.ps1"
 }
