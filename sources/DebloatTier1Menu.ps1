@@ -14,3 +14,10 @@ Write-Output "Windows Terminal"
 Write-Output "Notepad"
 Write-Output "Microsoft Edge (This Can't Be Removed Easily)"
 Write-Output "Microsoft Store (This Can't Be Removed Easily)"
+
+$userinput = Read-Host -Prompt "Press A To Start Script"
+
+if ($userinput -eq 'A'){
+    Clear-Host
+    & ".\DebloatTier1.ps1"
+}
