@@ -33,3 +33,7 @@ if ($choice -eq '3'){
     & ".\DebloatTier3Menu.ps1"
 }
 
+if ($choice -eq 'B'){
+    & ".\MainMenu.ps1"
+}
+
