@@ -4,6 +4,7 @@
 
 # Uninstall Junk
 Get-AppxPackage *BingNews* | Remove-AppxPackage # News App
+Get-AppxPackage "Microsoft.549981C3F5F10" | Remove-AppxPackage
 Get-AppxPackage *BingWeather* | Remove-AppxPackage # Weather App
 Get-AppxPackage *ZuneMusic* | Remove-AppxPackage # Music App
 Get-AppxPackage *ZuneVideo* | Remove-AppxPackage # Movies & TV
