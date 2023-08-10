@@ -19,6 +19,7 @@ if ($exitchoice -eq 'E'){
 }
 
 if ($exitchoice -eq 'B'){
+    Clear-Host
     & ".\MainMenu.ps1"
 }
 
