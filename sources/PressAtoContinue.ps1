@@ -16,6 +16,7 @@ $prompt = Read-Host -Prompt "Press 'A' to Continue"
 
 # If User Prompt = 'A' Then Continue to Main Menu
 if ($prompt -eq 'A'){
+    Clear-Host
     & ".\sources\MainMenu.ps1"
 
 # If User Enters Something Not 'A' Then Output Error: Invalid Choice Restart Script To Try Again
