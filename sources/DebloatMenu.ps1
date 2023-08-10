@@ -13,6 +13,9 @@ Write-Output "[1] No Bloat (Super Clean Tier)"
 Write-Output "[2] Minimal Programs (The Tier I Use)"
 Write-Output "[3] Almost Stock (Consumer Tier)"
 
+# Leave A Space
+Write-Output ""
+
 $choice = Read-Host -Prompt "Tier Choice"
 
 if ($choice -eq '1'){
