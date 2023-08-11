@@ -7,9 +7,11 @@
 Clear-Host
 
 # Displays "====== MicrosoftEvilFixer ======" aka Program Title
-Write-Output "====== MicrosoftEvilFixer ======"
-Write-Output "Version: Beta 1.9"
-Write-Output "================================"
+Write-Output "========== MicrosoftEvilFixer =========="
+Write-Output "Version: 1.0"
+Write-Output "Utility By: ThatPowerShellGuy"
+Write-Output "My GitHub: github.com/ThatPowerShellGuy1"
+Write-Output "========================================"
 
 # Leaves Space Between Program Title and User Prompt
 Write-Output ""
